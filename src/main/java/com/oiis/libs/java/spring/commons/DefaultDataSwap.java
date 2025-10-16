@@ -8,6 +8,11 @@ import org.springframework.util.StringUtils;
 
 import java.util.Objects;
 
+
+/**
+ * @deprecated 2025-10-16 - user as library require burocratic process to publish on maven central. As this class is small, then, copied to projects wich can use it
+ */
+@Deprecated(since = "2025-10-16")
 public class DefaultDataSwap {
 
     private static final Logger logger = LoggerFactory.getLogger(DefaultDataSwap.class);
