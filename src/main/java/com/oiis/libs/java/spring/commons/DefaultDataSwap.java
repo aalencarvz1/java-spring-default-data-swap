@@ -5,22 +5,42 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
-
 import java.util.Objects;
 
 
 /**
- * @deprecated 2025-10-16 - user as library require burocratic process to publish on maven central. As this class is small, then, copied to projects wich can use it
+ * Default class for represent generic data swap between processes.
+ *
+ * @author aalencarvz1
+ * @version 1.0.0
  */
-@Deprecated(since = "2025-10-16")
 public class DefaultDataSwap {
 
     private static final Logger logger = LoggerFactory.getLogger(DefaultDataSwap.class);
 
+    /**
+     * the success indicative
+     */
     public boolean success = false;
+
+    /**
+     * the data to swap
+     */
     public Object data = null;
+
+    /**
+     * the message, if necessary
+     */
     public String message = null;
+
+    /**
+     * the http status code
+     */
     public Integer httpStatusCode = null;
+
+    /**
+     * the exception if occurs
+     */
     public Exception exception = null;
 
     public DefaultDataSwap() {}
