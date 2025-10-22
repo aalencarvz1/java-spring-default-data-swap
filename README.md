@@ -13,6 +13,18 @@ It may serve as a default implementation for data interchange layers or utility 
 - Supports flexible input/output data handling
 - Integrates easily with other modules
 
+## 📦 Maven Dependency
+
+Add the dependency below to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>io.github.aalencarvz1.libs.commons</groupId>
+    <artifactId>default-data-swap</artifactId>
+    <version>1.1.5</version>
+</dependency>
+```
+
 ## 🧩 Example Usage
 
 ```java
@@ -96,6 +108,35 @@ public class DefaultDataSwap {
 
 ```
 
-## 📚 License
+## 🧬 Clone the repository
 
-This code is part of a private project. Please check the repository license for usage permissions.
+To get started locally:
+
+```bash
+git clone https://github.com/aalencarvz1/java-spring-default-data-swap.git
+cd java-spring-default-data-swap
+mvn install
+```
+
+## 🔧 Build and Local Test
+
+```bash
+mvn clean install
+```
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Alencar Velozo**  
+GitHub: [@aalencarvz1](https://github.com/aalencarvz1)
+
+---
+
+> 🔗 Published on [Maven Central (Sonatype)](https://central.sonatype.com/artifact/io.github.aalencarvz1.libs.commons/default-data-swap)
