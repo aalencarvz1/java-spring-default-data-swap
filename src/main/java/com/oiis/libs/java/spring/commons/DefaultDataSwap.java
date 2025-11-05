@@ -51,7 +51,7 @@ public class DefaultDataSwap {
     }
 
     public void setException(Exception exception) {
-        logger.error("parameter error on setException",exception);
+        this.success = false;
         this.httpStatusCode = Objects.requireNonNullElse(this.httpStatusCode, HttpStatus.INTERNAL_SERVER_ERROR.value());
         this.exception = exception;
         if (!StringUtils.hasText(this.message) && this.exception != null) {
