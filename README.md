@@ -1,3 +1,32 @@
+<div align="center">
+
+# 🟨⚠️ <span style="font-size:2.2em;">**DEPRECATED PROJECT**</span> ⚠️🟨
+
+---
+
+### 🚧 This repository is no longer maintained.
+
+Please use the new active repository instead:  
+👉 [**new-repo-name**](https://github.com/sysnormal1/default-data-swap.git)
+
+---
+
+![status: deprecated](https://img.shields.io/badge/status-deprecated-red?style=for-the-badge)
+![maintenance: no](https://img.shields.io/badge/maintenance-no-lightgrey?style=for-the-badge)
+
+</div>
+
+---
+
+## 📝 About
+
+This project has been **deprecated** and will not receive further updates or support.  
+All future development and maintenance have been moved to the repository linked above.
+
+If you are using this code in production, please migrate as soon as possible.
+
+---
+
 # DefaultDataSwap
 
 This class is part of the Java project and is responsible for data swapping functionality.
@@ -21,7 +50,7 @@ Add the dependency below to your `pom.xml`:
 <dependency>
     <groupId>io.github.aalencarvz1.libs.commons</groupId>
     <artifactId>default-data-swap</artifactId>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
 </dependency>
 ```
 

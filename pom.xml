@@ -9,11 +9,16 @@
         <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
     <name>Default Data Swap</name>
     <groupId>io.github.aalencarvz1.libs.commons</groupId>
     <artifactId>default-data-swap</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
+
+    <description>
+        ⚠️ DEPRECATED — This artifact is no longer maintained.
+        Please migrate to the new library at: com.sysnormal.libs.commons:default-data-swap
+    </description>
+
 
     <packaging>jar</packaging>
 
